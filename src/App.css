@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+.skillbar-title {
+  @apply text-lg font-semibold bg-gradient-to-r from-purple-500 to-blue-300 text-transparent bg-clip-text;
+}
 
 .App-logo {
   height: 40vmin;
